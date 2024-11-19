@@ -1,3 +1,4 @@
+#    How to Construct a Bar Graph with Overlay Using R/Python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -19,6 +20,7 @@ plt.title('Bar Graph with Overlay')
 plt.xticks(x, categories)  # Adding category labels
 plt.legend()
 plt.show()
+#  How to Construct Contingency Tables Using R/Python
 import pandas as pd
 
 # Example dataset
@@ -31,6 +33,8 @@ data = pd.DataFrame({
 contingency_table = pd.crosstab(data['Gender'], data['Purchased'])
 print("Contingency Table:")
 print(contingency_table)
+
+# How to Construct Histograms with Overlay Using R/Python
 # Sample data
 data1 = np.random.normal(50, 10, 1000)  # First dataset (mean=50, std=10)
 data2 = np.random.normal(60, 15, 1000)  # Second dataset (mean=60, std=15)
@@ -45,6 +49,7 @@ plt.title('Histogram with Overlay')
 plt.legend()
 plt.show()
 
+#  How to Perform Binning Based on Predictive Value Using R/Python
 # Example dataset
 data = pd.DataFrame({
     'Age': [22, 25, 27, 35, 45, 52, 60],
